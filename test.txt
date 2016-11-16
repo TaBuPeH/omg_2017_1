@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-hello asgasgasgasgasg
-=======
+
 
 Bob 4orbica s nadenica
-Kufte
 
->>>>>>> 4d2b90c3483c187f0dc5da0d7b965ae72d110d21
+
