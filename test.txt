@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 hello, world!
+=======
+hello Zdr
+>>>>>>> 474c1d1bdfe07aa3c55152ac2d6d90ba4a264d43
+asdf
