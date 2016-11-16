@@ -2,7 +2,9 @@
 hello Zdr
 3
 4
-5
+5 neshto 
+ 2 neshta
+ 3 neshta 
 6
 7
 8
