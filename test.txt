@@ -2,7 +2,6 @@
 hello Zdr
 3 mitko e gei
 4
-<<<<<<< HEAD
 5 neshto 
  2 neshta
  3 neshta 
