@@ -1,0 +1,5 @@
+1. Create your own folder inside this one
+2. Add a new image inside the folder
+3. Git Commit
+4. Git pull
+5. Git push
