@@ -1,0 +1,16 @@
+1. create HTML structure containing
+	head, body, article, 2 sections, 
+	3 divs in each section, 
+	1 of the 3 divs must have ID, 
+	2 of the divs must have classes	
+	create 1 div with the same class as the other ones outside of the Sections
+	
+2. Use Background-color option
+	
+   write a selector that sets the color of ALL DIVS to something 
+   	
+   Write a selector that sets the color of the div having ID inside each section to some color
+   
+   write a selector that sets the color of the div, outside the section to some color
+   
+   Write a div that sets the color of the divs having a certain class to some color

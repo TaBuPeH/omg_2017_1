@@ -1,0 +1,88 @@
+<html> 
+	
+<head>
+	
+	<style>
+		
+		div
+		{
+			background-color: red;
+		}
+		div.black
+		{
+			background-color: black;
+		}
+		.blue
+		{
+			background-color: blue;
+		}
+		
+		#firstDiv
+		{
+			background-color: green;
+			width: 50%;
+			height: 100px;
+			font-size: 20px;
+			color: #fff;
+			
+		}
+		
+		div > div
+		{
+			background-color : yellow;
+		}
+		
+		body section div.blue #firstDiv
+		{
+			background-color: purple;
+		}
+		
+		footer
+		{
+			border-top: 1px dotted #FF0000;
+			border-right: 1px solid #0000FF;
+		}
+	</style>
+	
+</head>	
+<body>
+	
+	<header>
+		<img src='carouselImg_1.jpg' width="100%">
+	</header>
+	
+		<footer>
+		this is footer
+	</footer>
+	<section>
+		
+		<div>
+			this is div 1
+		</div>
+		
+		<div >
+			this is div 2
+			<div> dis is div 5</div>
+		</div>
+		
+		<p class='blue'> some P</p>
+		
+		<div class="blue">
+			this is div 3
+			<div id='' class='black blue'> dis is div 4</div>
+		</div>
+		
+	</section>
+	
+	<div id='firstDiv' class='black blue'> dis is div 4</div>
+	
+
+	
+
+</body>
+	
+	
+</html> 
+
+
+
