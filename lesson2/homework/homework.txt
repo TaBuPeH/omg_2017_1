@@ -13,4 +13,4 @@
    
    write a selector that sets the color of the div, outside the section to some color
    
-   Write a div that sets the color of the divs having a certain class to some color
+   Write a style that sets the color of the divs having a certain class to some color
