@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<style>
+		div
+		{
+			background-color: green;
+		}
+		#id
+		{
+			background-color: #a1a1a1;
+		}
+	    :not(section) div 
+		{
+			background-color: red;
+		}
+		.size
+		{
+			height: 50px;
+			padding: 0px 45%;
+		}
+		.orange
+		{
+			background-color: orange;
+		}
+		.yellow
+		{
+			background-color: yellow;
+		}
+		</style>
+	</head>
+	<body>
+	
+		<article>
+
+			<section>
+				<div id = 'id' class = 'size' >Div 1 in section 1</div>
+				<div class = 'yellow size' >Div 2 in section 1</div>
+				<div class = 'orange size' >Div 3 in section 1</div>
+			</section>
+			<br>
+			<div class = 'size' >Div which is outside the sections</div>
+			<br>
+			<section>
+				<div class = 'orange size' >Div 1 in section 2</div>
+				<div class = 'yellow size' >Div 2 in section 2</div>
+				<div id = 'id' class = 'size' >Div 3 in section 2</div>
+			</section>
+			
+			
+		
+		</article>
+	
+	</body>
+</html>
