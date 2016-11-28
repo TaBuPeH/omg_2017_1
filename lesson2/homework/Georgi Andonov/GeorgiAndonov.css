@@ -1,0 +1,45 @@
+div {
+    background-color: aquamarine;
+}
+
+#pacificBlue {
+    background-color: #0099CC;
+    padding: 5px;
+}
+
+body section div.smaltColour {
+    background-color: #003399;
+    padding: 5px;
+}
+
+#guardsmanRed {
+    background-color: #CE0000;
+    padding: 5px;
+}
+
+.pomegranateRed {
+    background-color: #EE3233;
+    padding: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+body div.smaltColour {
+    background-color: blueviolet;
+    padding: 5px;
+}
+
+.russian {
+    width: 70%;
+    height: 70%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
+
+body {
+    background-color: lavender;
+}
