@@ -1,0 +1,15 @@
+div {
+    background-color: black;
+}
+#firstid, #secondid {
+    background-color: crimson;
+}
+.seconddiv {
+    background-color: aqua;
+}
+.firstdiv {
+    background-color: chartreuse;
+}
+section div.thirddiv, .fourthdiv {
+    color: white;
+}
