@@ -1,0 +1,222 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html, body
+{
+	font-family: "Arial Black";
+	font-size: 1vw;
+	height: 3000px;
+}
+
+.mainDiv
+{
+	width: 60%;
+	background-color: red;
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+article
+{
+	width: 100%;
+	float: left;
+}
+
+article header
+{
+	width: 100%;
+	float: left;
+}
+
+
+article section
+{
+	width: 100%;
+	float: left;
+}
+
+
+article footer
+{
+	width: 100%;
+	background-color: blue;
+	float: left;
+}
+
+article header div.logo
+{
+	width: 50%;
+	float: left;
+}
+
+article header div.logo img
+{
+	width: 50%;
+}
+article header nav
+{
+	width: 100%;
+	float:right;
+}
+
+article header nav ul
+{
+	float:right;
+}
+article header nav ul li
+{
+	float:left;
+}
+
+
+article header nav ul li a
+{
+	text-decoration: none;
+	padding: 1vw;
+	display: block;
+	color: #002b80;
+	background-color:#e6eeff;
+	font-size: 1.1rem;
+	font-family: arial black;
+	transition: color 0.5s, background-color 0.3s;
+}
+
+article header nav ul li a:hover
+{
+	
+	background-color: #99bbff;
+	color: #002b80;
+	
+	
+}
+
+article section div:hover
+{
+	
+	background-color: #b3ccff;
+	color: #002b80;
+	transition: color 0.5s, background-color 0.3s;
+	
+	
+}
+
+
+article section
+{
+	float: left;
+	width: 100%;
+	margin-top: 5%;
+}
+
+article section div.product
+{
+	width: 25%;
+	float: left;
+	padding : 1%;
+	margin: 2%;
+	box-sizing: border-box;
+	position: relative;
+	text-align: center;
+	
+}
+
+article section div.productImage
+{
+	width: 80%;
+	height: 120px;
+	float: center;
+	
+}
+#img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article section div.productImage img
+{
+	width: 90%;
+	float: center;
+	transition: 0.5s;
+}
+
+article section div img:hover 
+{
+	width: 100%;
+
+	transition: 0.5s;
+}
+
+
+
+
+article section div.description 
+{
+	width: 100%;
+	float: left;
+	height: 100px;
+	text-align: center;
+	padding: 1% 5%;
+	box-sizing: border-box;
+	font-size: 15px;
+	font-family:"Comic Sans MS";
+	font-style: italic;
+	
+	
+	
+}
+
+sasdasd
+{
+	position: static;
+	position: relative;
+	position: fixed;
+	position: absolute;
+}
