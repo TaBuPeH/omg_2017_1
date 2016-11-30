@@ -1,0 +1,182 @@
+html, body {
+    font-size: 1vw;
+}
+.head {
+    height: 50vw;
+    background-image: url("bgimg.JPG");
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+}
+.header {
+    opacity: 0.6;
+    position: fixed;
+    background-color: #00bcd4;
+    width: 100%;
+    float: left;
+    z-index: 100;
+}
+.header:hover {
+    opacity: 1;
+}
+.logo {
+    margin-left: 1%;
+    width: 5%;
+    float: left;
+}
+.logo img {
+    box-sizing: border-box;
+    padding-top: 5%;
+    width: 53%;
+}
+.nav-bar {
+    width: 40%;
+    float: right;
+}
+
+.nav-list {
+    width: 100%;
+    float: right;
+}
+.nav-link {
+    box-sizing: border-box;
+    padding: 3% 1%;
+    font-size: 1.5rem;
+    float: left;
+    transition: all 0.3s ease-in-out;
+}
+.nav-link:hover {
+    background-color: #00b1d4;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+.nav-li {
+    font-family: "Montserrat", sans-serif;
+    color: black;
+    float: left;
+}
+.nav-li:hover {
+    color: white;
+}
+.text-prices h1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 30%;
+    margin: 70% auto;
+    text-align: center;
+    font-size: 5rem;
+    color: white;
+    text-shadow: 5px 5px 5px #000000;
+    font-family: 'Mystery Quest', cursive;
+}
+.text-prices button {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 10%;
+    margin: 85% 35%;
+    font-size: 1.2rem;
+    background-color: #008080;
+    text-align: center;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 2%;
+    font-family: "Montserrat", sans-serif;
+
+}
+.text-prices button:hover {
+    box-shadow: 5px 5px 5px #000000;
+}
+.section {
+    background-color: rgba(51, 51, 51, 0.7);
+    color: white;
+    width: 100%;
+    float: left;
+}
+.text {
+    width: 50%;
+    float: left;
+}
+.text h1 {
+    font-family: "Montserrat", sans-serif;
+    margin: 2% 2% 2% 10%;
+    text-align: center;
+    font-size: 2rem;
+}
+.text p {
+    font-family: 'Roboto', cursive;
+    margin: 0 0 0 10%;
+    line-height: 150%;
+    font-size: 1.3rem;
+    color: #ffffff;
+}
+.img {
+    width: 50%;
+    float: left;
+}
+.img img {
+    opacity: 0.8;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+
+.section2 {
+    background-color: #ffffff;
+    width: 100%;
+    float: left;
+}
+.text2 {
+    width: 50%;
+    float: right;
+}
+.text2 h1 {
+    font-family: "Montserrat", sans-serif;
+    margin: 2% 10% 2% 2%;
+    text-align: center;
+    font-size: 2rem;
+}
+.text2 p {
+    font-family: 'Roboto', cursive;
+    margin: 0 10% 0 0;
+    line-height: 150%;
+    font-size: 1.3rem;
+    color: #333;
+}
+.img2 {
+    width: 50%;
+    float: right;
+}
+.img2 img {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+
+.text-prices {
+    position: relative;
+    margin: auto;
+    width: 40%;
+    height: 30vw;
+}
+.logo2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 40%;
+    height: 60%;
+    margin: 25% auto;
+}
+.footer {
+    text-align: center;
+    font-size: 10rem;
+}
