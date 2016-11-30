@@ -1,0 +1,122 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.mainDiv{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #FFF2B4;
+}
+header{
+    padding-bottom: 2.5em;
+    width: 100%;
+}
+
+header, article, #logo, nav, li, .book{
+    
+    float: left;
+}
+
+nav ul{
+    float: right;
+}
+
+a{
+    text-decoration: none;
+    padding: 1vw;
+    display: block;
+    font-size: 1.5rem;
+    color: #2EC9C9;
+    transition: color 0.8s, background-color 0.8s;
+}
+
+.hover, a:hover{
+    color: #FFD33B;
+    background-color: #2EC9C9;
+    transition: color 0.8s, background-color 0.8s;
+}
+#logo {
+    width: 7%;
+    text-align:center;
+     background-color: #2EC9C9;
+}
+#logo img{
+    width : 100%;
+   
+}
+
+nav{
+    background-color: #FFD33B;
+    width: 93%;
+}
+
+.bookImg img{
+    width: 11em;
+}
+ .bookImg{     
+    text-align: center;
+ }
+
+.book{
+    width: 30%;
+}
+
+.title{
+    font-style: oblique;
+    font-size: 1.3em;
+}
+
+.book > *{
+    padding: 0.7vw;
+}
+
+.price{
+    text-align: center;
+}
