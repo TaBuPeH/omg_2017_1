@@ -15,7 +15,7 @@ main
     background-color: brown;
     text-align: center;
 }
-.logo img 
+.logo img
 {
     width: 50%;
 }
@@ -60,7 +60,6 @@ main
     width: 20%;
     float: left;
     margin: 1%;
-    overflow: hidden;
     border: 1px solid black;
     box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
 }
@@ -68,14 +67,22 @@ main
 {
     float: left;
     width: 100%; 
+	position: relative;
     
 }
-.productImage img
+.productImage img:first-child 
 {
     width: 100%;
     height: 12vw;
     border: 1px solid rgba(0,0,0,0.5);
    
+}
+.productImage .topOffer{
+	width: 70%;
+	position: absolute;
+	bottom: -20%;
+	right: -20%;
+	transform: rotate(-30deg);
 }
 .productDetails 
 {
