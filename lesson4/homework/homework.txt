@@ -1,0 +1,4 @@
+1. make your sites responsive
+2. make a contact form that looks nice 
+3. make a pseudo element : after
+4. use a radio button in the contact form for gender select

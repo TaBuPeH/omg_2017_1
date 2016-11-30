@@ -189,10 +189,55 @@ article section div.description
 }
 
 
-sasdasd
-{
-	position: static;
-	position: relative;
-	position: fixed;
-	position: absolute;
+
+
+@media screen and (max-width: 1440px) {
+    body,html {
+        font-size: 1.5vw;
+    }
+	
+	article section div.product
+	{
+		width: 33.3333%;
+	}
 }
+@media screen and (max-width: 1024px) {
+    body,html {
+        font-size: 2vw;
+    }
+	
+	article section div.product
+	{
+		width: 50%;
+	}
+	
+	.mainDiv
+	{
+		width: 90%;
+	}
+	
+	article section div.description {
+		font-size: 1.5rem;
+	}
+}
+
+@media screen and (max-width: 640px) {
+    body,html {
+        font-size: 3vw;
+    }
+	
+	article section div.product
+	{
+		width: 100%;
+	}
+	
+	.mainDiv
+	{
+		width: 90%;
+	}
+	
+	article section div.description {
+		font-size: 2rem;
+	}
+}
+
