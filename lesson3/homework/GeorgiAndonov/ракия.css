@@ -1,0 +1,196 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html, body
+{
+    font-size: 1vw;
+}
+
+/*.mainDiv*/
+/*{*/
+    /*width: 60%;*/
+    /*background-color: blue;*/
+    /*box-sizing: border-box;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+/*}*/
+
+
+
+.nav-bar header
+{
+    width: 100%;
+    float: left;
+    background-color: #003399;
+    position: fixed;
+}
+
+
+.nav-bar header nav
+{
+    width: 80%;
+    float: left;
+}
+
+.nav-bar header nav ul
+{
+    float: right;
+}
+.nav-bar header nav ul li
+{
+    float: left;
+}
+
+
+.nav-bar header nav ul li a
+{
+    text-decoration: none;
+    padding: 1vw;
+    display: block;
+    color: #ffffff;
+    font-size: 1.2rem;
+    transition: color 1s, background-color 1s;
+    font-family: 'Mystery Quest', cursive;
+}
+
+.nav-bar header nav ul li a:hover
+{
+
+    background-color: black;
+    color: #fff;
+
+    transition: color 1s, background-color 1s;
+}
+
+/*.container {*/
+    /*width: 100%;*/
+    /*height: 30%;*/
+    /*background-image: url("background.jpg");*/
+    /*background-repeat: no-repeat;*/
+/*}*/
+
+/*.container h1 {*/
+    /*font-size: 64px;*/
+    /*font-family: 'Mystery Quest', cursive;*/
+    /*text-align: center;*/
+    /*padding-top: 20%;*/
+/*}*/
+
+.container1 {
+    width: 100%;
+    background-image: url("pergola_trentina.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.img {
+    width: 50%;
+    float: right;
+}
+
+.container2 {
+    width: 100%;
+    background-image: url("слива.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: right;
+}
+
+.img2 {
+    width: 50%;
+    float: left;
+}
+
+.bai-pesho {
+    font-family: 'Mystery Quest', cursive;
+    color: aliceblue;
+    font-size: 60px;
+    float: right;
+    padding-top: 30%;
+    padding-right: 0;
+}
+
+.bai-tosho {
+    font-family: 'Mystery Quest', cursive;
+    color: black;
+    font-size: 60px;
+    float: left;
+    padding-top: 30%;
+    padding-left: 0;
+}
+
+.price {
+    font-family: 'Mystery Quest', cursive;
+    color: black;
+    font-size: 60px;
+    padding-top: 40%;
+    padding-left: 0;
+    padding-right: 5%;
+}
+
+.price1 {
+    font-family: 'Mystery Quest', cursive;
+    color: aliceblue;
+    font-size: 60px;
+    padding-top: 40%;
+    padding-right: 0;
+    padding-left: 5%;
+}
+
+.all {
+    height: 100%;
+}
+
+footer p {
+    font-family: 'Mystery Quest', cursive;
+    font-size: 54px;
+    color: #003399;
+    text-align: center;
+}
