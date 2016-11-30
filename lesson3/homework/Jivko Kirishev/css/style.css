@@ -56,11 +56,16 @@ table {
 }
 header{
     padding-bottom: 2.5em;
+    width: 100%;
 }
 
-header, article, #logo, nav, ul, li, .book{
+header, article, #logo, nav, li, .book{
     
     float: left;
+}
+
+nav ul{
+    float: right;
 }
 
 a{
@@ -77,19 +82,27 @@ a{
     background-color: #2EC9C9;
     transition: color 0.8s, background-color 0.8s;
 }
-
+#logo {
+    width: 7%;
+    text-align:center;
+     background-color: #2EC9C9;
+}
 #logo img{
-    width: 19%;
-    background-color: #2EC9C9;
+    width : 100%;
+   
 }
 
 nav{
     background-color: #FFD33B;
+    width: 93%;
 }
 
 .bookImg img{
     width: 11em;
 }
+ .bookImg{     
+    text-align: center;
+ }
 
 .book{
     width: 30%;
