@@ -241,7 +241,7 @@ div.submit
 		font-size: 2.2vw;
 	}
 }
-@media onlyscreen and (max-width: 640px) {
+@media only screen and (max-width: 640px) {
 	body, html
 	{
 		font-size: 4vw;
