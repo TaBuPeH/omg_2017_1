@@ -1,0 +1,287 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html, body
+{
+	font-family: 'Roboto Slab', serif;
+	background-color: #C0C0C0;
+}
+
+article
+{
+	width: 100%;
+	float: left;
+}
+
+article section
+{
+	width: 100%;
+	float: left;
+}
+
+article header
+{
+	width: 100%;
+	float: left;
+	background-color: #003399;
+	position: fixed;
+	z-index: 100;
+}
+
+article header nav
+{
+	width: 80%;
+	float: left;
+}
+
+article header nav ul
+{
+	float: left;
+}
+
+article header nav ul li
+{
+	float: left;
+}
+
+.logo
+{
+	float: left;
+	width: 6vw;
+	padding: 0.5vw 2vw;
+	min-width: 57px;
+}
+
+article header nav ul li a
+{
+	text-decoration: none;
+	padding: 1.5vw 2vw;
+	display: block;
+	color: #ffffff;
+	font-size: 1.2rem;
+	transition: color 1s, background-color 1s;
+	font-family: 'Mystery Quest', cursive;
+}
+
+article header nav ul li a:hover
+{
+
+	background-color: black;
+	color: #fff;
+
+	transition: color 1s, background-color 1s;
+}
+
+article section
+{
+	float: left;
+	width: 100%;
+	margin-top: 5%;
+}
+
+article section div.product
+{
+	border: 1px solid black;
+	background-color: white;
+	width: 25%;
+	float: left;
+	padding : 1%;
+	margin: 4%;
+	box-sizing: border-box;
+	position: relative;
+	transition: color 1s, background-color 1s;
+}
+
+article section div.product:hover
+{
+	background-color: #3399FF;
+	color: white;
+}
+
+article section div.productImage
+ {
+	 width: 100%;
+	 float: left;
+ }
+
+
+article section div.productImage img
+{
+	width: 100%;
+	float: left;
+}
+
+article section div.description 
+{
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding: 0 5%;
+	box-sizing: border-box;
+
+}
+
+.price
+{
+	border: 1px solid black;
+	padding: 5%;
+	margin-top: 3%;
+	float: right;
+	position: relative;
+	transition: background-color 1s;
+}
+
+.price:hover
+{
+	background-color: black;
+}
+
+.fTer
+{
+	width: 100%;
+	float: left;
+	background-color: #003399;
+}
+
+.fTer form
+{
+	color: white;
+	float: right;
+	padding: 5%;
+}
+
+.fTer img
+{
+	width: 30%;
+	float: right;
+	padding: 5% 25% 5% 5%;
+	position: static;
+}
+
+form::after
+{
+	content: "###";
+	color: white;
+}
+
+@media screen and (max-width: 1440px)
+{
+	body,html
+	{
+		font-size: 1vw;
+	}
+
+	article section div.product
+	{
+		width: 25%;
+	}
+}
+@media screen and (max-width: 1024px)
+{
+	body,html
+	{
+		font-size: 1.5vw;
+	}
+
+	article section div.product
+	{
+		width: 40%;
+	}
+
+	.mainDiv
+	{
+		width: 100%;
+	}
+
+	article section div.description
+	{
+		font-size: 1.2rem;
+	}
+
+	.fTer img
+	{
+		width: 25%;
+		padding: 10% 20% 5% 5%;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	body, html {
+		font-size: 2.5vw;
+	}
+
+	article section div.product {
+		width: 90%;
+	}
+
+	.mainDiv {
+		width: 100%;
+	}
+
+	.description {
+		font-size: 1.5rem;
+	}
+
+	.price
+	{
+		font-size: 1.2rem;
+	}
+
+	.fTer form
+	{
+		padding-right: 20%;
+		padding-left: 10%;
+	}
+
+	.fTer img
+	{
+		width: 30%;
+		padding: 10% 35% 10% 5%;
+	}
+}
