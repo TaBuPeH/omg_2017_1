@@ -1,0 +1,21 @@
+1. Create a div holding 6 other empty divs
+
+2. Create a button called Start
+
+3. Add an event listener to this button 
+
+4. Create a function to get numbers between 1 and 49
+
+    // Math.floor(Math.random()*49) + 1;
+     // 0 - 48.999999999;
+     // 0 - 48;
+     // 1 - 49;
+
+5. Add the new random number inside an Array
+
+6. If the number that is drawn is already within this array - 
+draw a new number until it is not inside
+
+7. Start calling this function when you press the start button
+
+8. Continue calling this function each 1000 mseconds (setTimeout);
