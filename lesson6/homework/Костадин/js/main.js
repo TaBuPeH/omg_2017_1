@@ -7,11 +7,9 @@ function loadEverything() {
 	document.getElementById('starter').addEventListener('click', fillArray);
 	document.getElementById('clear').addEventListener('click', emptyArray);
 	elements = document.querySelectorAll(".box");
-	elements[1] = "wqed";
 }
 
 function fillArray() {
-	//
 	while(drawn.length < 6){
 		var draw = drawNum();
 		var flag = 0;
