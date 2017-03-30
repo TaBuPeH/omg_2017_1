@@ -1,0 +1,68 @@
+#container{
+	background-color: rgba(100, 100, 100, 0.7);
+	width: 75%;
+	margin: 0 12.5% 4%;
+	float: left;
+	border-radius: 5px;
+	border: 1px solid black;
+}
+
+#starter{
+	background-color: rgba(100, 100, 100, 0.7);
+	color: beige;
+	width: 75%;
+	margin: 0 12.5%;
+	float: left;
+	text-align: center;
+	font-size: 2vw;
+	padding: 3% 0;
+	border-radius: 5px;
+	border: 1px solid black;
+	transition: background-color .3s;
+}
+#starter:hover{
+	background-color: rgba(150, 150, 150, 0.7);
+	transition: background-color .3s;
+}
+
+#clear{
+	background-color: rgba(100, 100, 100, 0.7);
+	color: beige;
+	width: 75%;
+	margin: 2% 12.5%;
+	float: left;
+	text-align: center;
+	font-size: 2vw;
+	padding: 1% 0;
+	border-radius: 5px;
+	border: 1px solid black;
+	transition: background-color .3s;
+}
+#clear:hover{
+	background-color: rgba(150, 150, 150, 0.7);
+	transition: background-color .3s;
+}
+
+.box{
+	border-radius: 5px;
+	background-color: beige;
+	float: left;
+	width: 10%;
+	height: 2vw;
+	margin: 1.833%;
+	text-align: center;
+	font-size: 2vw;
+	padding: 1.5%;
+	border-color: lime;
+	border-style: solid;
+	border-left: 0;
+	border-right: 0;
+}
+
+html{
+	background-image: url("../img/toto.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center top;
+}
