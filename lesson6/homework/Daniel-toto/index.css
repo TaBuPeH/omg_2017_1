@@ -1,0 +1,80 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,menu,nav,section {
+    display:block;
+}
+
+/*----css part----*/
+.wrapper{
+    width: 80%;
+    height: 100%;
+    background-color: #FFF8DC;
+    padding: 15px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+h1{
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 40px;
+    margin: 15px 0px;
+}
+p{
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 22px;
+    margin:  10px;
+}
+button{
+font-size: 16px;
+    padding: 7px 16px;
+}
+.number{
+    width: 150px;
+    height: 150px;
+    background-color: #DCD1A5;
+    border: groove;
+    display: inline-block;
+    float: left;
+    margin: 5px 10px;
+    text-align: center;
+
+}
+#bottom{
+    display: inline-block;
+    width: 90%;
+    text-align: center;
+    background-color: #BAAC72;
+    padding: 12px;
+    margin: 10px;
+}
+#numbers{
+    width: 90%;
+    text-align: center;
+    display: block;
+}
