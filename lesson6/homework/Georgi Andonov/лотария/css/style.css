@@ -1,0 +1,74 @@
+html {
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+h1 {
+    margin-top: 5%;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#mainDiv {
+    background-color: crimson;
+    width: 80%;
+    float: left;
+    margin: 3% 12%;
+    border-radius: 20px;
+    transition: background-color .3s;
+    opacity: 0.9;
+}
+
+.toto {
+    background-color: darkblue;
+    width: 5%;
+    height: 2vw;
+    float: left;
+    margin: 1% 4.5% 1% 4%;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 2% 1.5%;
+    color: white;
+    border-radius: 100%;
+}
+
+
+#startButton {
+    float: left;
+    background-color: crimson;
+    width: 10%;
+    height: 1.5vw;
+    margin: 3% 42%;
+    padding: 2% 1.5%;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#clearButton {
+    float: left;
+    background-color: crimson;
+    width: 10%;
+    height: 1.5vw;
+    margin: -2% 42%;
+    padding: 2% 1.5%;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#startButton:hover {
+    background-color: lightblue;
+    transition: background-color 0.4s;
+}
+
+#clearButton:hover {
+    background-color: lightblue;
+    transition: background-color 0.4s;
+}
