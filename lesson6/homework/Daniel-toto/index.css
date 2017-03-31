@@ -41,7 +41,7 @@ footer,header,menu,nav,section {
 h1{
     font-family: Montserrat;
     text-align: center;
-    font-size: 40px;
+    font-size: 45px;
     margin: 15px 0px;
 }
 p{
@@ -57,12 +57,14 @@ font-size: 16px;
 .number{
     width: 150px;
     height: 150px;
+    line-height: 150px;
     background-color: #DCD1A5;
     border: groove;
     display: inline-block;
     float: left;
     margin: 5px 10px;
     text-align: center;
+    font-size: 35px;
 
 }
 #bottom{
@@ -72,6 +74,7 @@ font-size: 16px;
     background-color: #BAAC72;
     padding: 12px;
     margin: 10px;
+    font-style: oblique;
 }
 #numbers{
     width: 90%;
