@@ -1,0 +1,18 @@
+div#heroes > div{
+    float:left;
+    margin: 10px;
+    width: 350px;
+    height: 350px;
+}
+
+#batman{
+    background-image: url("../heroes/batman.jpg");
+}
+
+#superman{
+    background-image: url("../heroes/superman.jpg");
+}
+
+#spiderman{
+    background-image: url("../heroes/spiderman.jpg");
+}
