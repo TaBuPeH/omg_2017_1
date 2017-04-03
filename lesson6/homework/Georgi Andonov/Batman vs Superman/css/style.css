@@ -1,0 +1,36 @@
+body {
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#batman {
+    width: 40%;
+    float: left;
+}
+
+#superman {
+    width: 22%;
+    float: left;
+    margin-left: 15%;
+}
+
+#fightButton {
+    width: 15%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+#finalMessage {
+    width: 35%;
+    color: white;
+    float: left;
+    font-size: 3rem;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    margin-left: 36%;
+    border-radius: 12%;
+
+}
