@@ -1,0 +1,166 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section {
+    display: block;
+}
+
+
+/*----css part----*/
+
+#arena {
+    height: 100%;
+    width: 100%;
+    background: url(imgs/Arena_Battle_Background.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-family: Nosifer;
+    font-size: 65px;
+    padding: 25px 10px;
+}
+
+#heroes {
+    width: 50%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+#left_hero {
+    display: inline-block;
+    margin: 10% 20% 10px 0px;
+}
+
+#right_hero {
+    display: inline-block;
+    margin: 10% 0px 10px 20%;
+}
+
+div img {
+    height: 405px;
+    width: auto;
+}
+
+#bot {
+    width: 100%;
+    text-align: center;
+    font-family: "Action Man";
+    font-size: 20px;
+    padding: 0px 10px 10px 10px;
+}
+
+button {
+    padding: 8px 15px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+#text_box div {
+    font-family: 'Press Start 2P';
+    margin: 10px 0px;
+}
+
+#text_box {
+    padding-top: 5px;
+    min-height: 165px;
+    max-height: 165px;
+    width: 95%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    border: double;
+    background: #CCC;
+    opacity: 0.6;
+    overflow-y: scroll;
+}

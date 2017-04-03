@@ -2,8 +2,8 @@
  * Created by Alex on 29.3.2017 г..
  */
 
-document.addEventListener('DOMContentLoaded', function(){
-    document.getElementById("button").addEventListener('click', function(){
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById("button").addEventListener('click', function() {
         ourSlots = document.querySelectorAll('.slot div');
         resetSlots();
         setTimeout(function() {
@@ -31,7 +31,7 @@ function getRandomNumber() {
         newNumber = Math.floor(Math.random() * 49) + 1;
         if (numbers.length >= 1) {
             for (i = 0; i < numbers.length; i++) {
-                while (newNumber == numbers[i]){
+                while (newNumber == numbers[i]) {
                     newNumber = Math.floor(Math.random() * 49) + 1;
                 }
             }
@@ -46,10 +46,10 @@ function getRandomNumber() {
 function setNumbers() {
     if (br < numbers.length) {
         ourSlots[br].innerHTML = numbers[br];
-        setTimeout(setNumbers,1000);
+        setTimeout(setNumbers, 1000);
         br++;
     } else {
-        for(i = -1; i < 5; i++) {
+        for (i = -1; i < 5; i++) {
             numbers.pop();
         }
     }
@@ -57,7 +57,7 @@ function setNumbers() {
 
 function resetSlots() {
     var br = 0;
-    for (i = 0; i < 6; i++){
+    for (i = 0; i < 6; i++) {
         ourSlots[i].innerHTML = "&nbsp;";
     }
 }
