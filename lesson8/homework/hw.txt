@@ -1,0 +1,16 @@
+                                  Vehicle
+    Car                           Truck                    Plane                  Boat
+Cabrio / Sedan / Combi      Цистерна / Самосвал      Cargo / Passenger     Tanker / Cruise / Yacht
+
+
+
+
+$x = new Cabrio();
+
+$y = new Samosval();
+
+$y->load(100);
+
+$cabrio->roofDown();
+
+var_dump();

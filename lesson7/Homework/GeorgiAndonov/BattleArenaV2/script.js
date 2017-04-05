@@ -5,15 +5,15 @@ function Pokemon(aName, aHealth) {
     this.Health = aHealth;
     this.attacks = [];
 
-    this.getName = function () {
+    this.getName = function() {
         return this.name;
     };
 
-    this.getHealth = function () {
+    this.getHealth = function() {
         return this.Health;
     };
 
-    this.setHealth = function (newHealth) {
+    this.setHealth = function(newHealth) {
         this.Health = newHealth;
     };
 
@@ -35,6 +35,7 @@ function Pokemon(aName, aHealth) {
 }
 
 function Attack(aName, aMaxDMG, aMinDMG) {
+    console.log(aName);
     this.attackName = aName;
     this.maxDMG = aMaxDMG;
     this.minDMG = aMinDMG;
@@ -42,7 +43,7 @@ function Attack(aName, aMaxDMG, aMinDMG) {
         return this.attackName;
     };
 
-    this.attDmg = Math.floor(Math.random()*(this.maxDMG - this.minDMG) + this.minDMG);
+    this.attDmg = Math.floor(Math.random() * (this.maxDMG - this.minDMG) + this.minDMG);
 }
 
 function loadEverything() {
@@ -79,65 +80,68 @@ function loadEverything() {
     //    }
     //});
 
-document.getElementById("addButton").addEventListener("click", function() {
-
-    var Pokemon1 = new Pokemon(document.getElementById("name1").value ,document.getElementById("HP1").value);
-    Pokemon1.addAttack(new Attack(document.getElementById("fAttName1").value), document.getElementById("maxAtt1").value, document.getElementById("minAtt1").value);
-    Pokemon1.addAttack(new Attack(document.getElementById("fAttName2").value), document.getElementById("maxAtt1").value, document.getElementById("minAtt1").value);
-    Pokemon1.addAttack(new Attack(document.getElementById("fAttName3").value), document.getElementById("maxAtt1").value, document.getElementById("minAtt1").value);
-
-    var Pokemon2 = new Pokemon(document.getElementById("name2").value ,document.getElementById("HP2").value);
-    Pokemon2.addAttack(new Attack(document.getElementById("sAttName1").value), document.getElementById("maxAtt2").value, document.getElementById("minAtt2").value);
-    Pokemon2.addAttack(new Attack(document.getElementById("sAttName2").value), document.getElementById("maxAtt2").value, document.getElementById("minAtt2").value);
-    Pokemon2.addAttack(new Attack(document.getElementById("sAttName3").value), document.getElementById("maxAtt2").value, document.getElementById("minAtt2").value);
+    document.getElementById("addButton").addEventListener("click", function() {
 
 
-document.getElementById("button").addEventListener("click", startFighting);
+        var Pokemon1 = new Pokemon(document.getElementById("name1").value, document.getElementById("HP1").value);
+        Pokemon1.addAttack(new Attack(document.getElementById("fAttName1").value), document.getElementById("maxAtt1").value, document.getElementById("minAtt1").value);
+        Pokemon1.addAttack(new Attack(document.getElementById("fAttName2").value), document.getElementById("maxAtt1").value, document.getElementById("minAtt1").value);
+        Pokemon1.addAttack(new Attack(document.getElementById("fAttName3").value), document.getElementById("maxAtt1").value, document.getElementById("minAtt1").value);
 
-var moves = [];
-var i = 0, j = 0;
+        var Pokemon2 = new Pokemon(document.getElementById("name2").value, document.getElementById("HP2").value);
+        Pokemon2.addAttack(new Attack(document.getElementById("sAttName1").value), document.getElementById("maxAtt2").value, document.getElementById("minAtt2").value);
+        Pokemon2.addAttack(new Attack(document.getElementById("sAttName2").value), document.getElementById("maxAtt2").value, document.getElementById("minAtt2").value);
+        Pokemon2.addAttack(new Attack(document.getElementById("sAttName3").value), document.getElementById("maxAtt2").value, document.getElementById("minAtt2").value);
 
-function startFighting() {
 
-    moves[i] = Pokemon1.getName() + " VS " + Pokemon2.getName();
-    i++;
-    moves[i] = Pokemon1.getHealth() + "HP | " + Pokemon2.getHealth() + "HP";
-    i++;
+        document.getElementById("button").addEventListener("click", startFighting);
 
-    var attacker = Pokemon1;
-    var defender = Pokemon2;
+        var moves = [];
+        var i = 0,
+            j = 0;
 
-    while (attacker.getHealth() > 0) {
-        moves[i] = attacker.attack(defender);
-        i++;
+        function startFighting() {
 
-        var temp = attacker;
-        attacker = defender;
-        defender = temp;
+            moves[i] = Pokemon1.getName() + " VS " + Pokemon2.getName();
+            i++;
+            moves[i] = Pokemon1.getHealth() + "HP | " + Pokemon2.getHealth() + "HP";
+            i++;
 
-    }
+            var attacker = Pokemon1;
+            var defender = Pokemon2;
 
-    moves[i] = defender.getName() + " wins!";
-    i++;
-    moves[i] = "-------------";
-    i++;
-    fillTextBox();
+            while (attacker.getHealth() > 0) {
+                moves[i] = attacker.attack(defender);
+                i++;
+
+                var temp = attacker;
+                attacker = defender;
+                defender = temp;
+
+            }
+
+            moves[i] = defender.getName() + " wins!";
+            i++;
+            moves[i] = "-------------";
+            i++;
+            fillTextBox();
+        }
+
+
+
+        function fillTextBox() {
+
+            var element = document.getElementById('text_box');
+            var html = element.innerHTML;
+
+
+            if (j < moves.length) {
+                html += "<div>" + moves[j] + "</div>";
+                element.innerHTML = html;
+                element.scrollTop = element.scrollHeight;
+                j++;
+                setTimeout(fillTextBox, 500);
+            }
+        }
+    });
 }
-
-
-
-function fillTextBox() {
-
-    var element = document.getElementById('text_box');
-    var html = element.innerHTML;
-
-
-    if (j < moves.length) {
-        html += "<div>" + moves[j] + "</div>";
-        element.innerHTML = html;
-        element.scrollTop = element.scrollHeight;
-        j++;
-        setTimeout(fillTextBox, 500);
-    }
-}
-});}
