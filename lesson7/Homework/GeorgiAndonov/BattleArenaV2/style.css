@@ -1,0 +1,142 @@
+body {
+    background-image: url("img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#header {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+#header img {
+    width: 60%;
+}
+
+.Fighter1 {
+    width: 35%;
+    float: left;
+    margin-top: 6%;
+    margin-left: 5%;
+}
+
+.Fighter1 img {
+    width: 90%;
+}
+
+.Fighter2 {
+    width: 35%;
+    float: left;
+    margin-top: 6%;
+    margin-left: 10%;
+}
+
+.Fighter2 img {
+    width: 90%;
+}
+
+#choice1 {
+    float: left;
+    width: 20%;
+    font-size: 1em;
+    font-style: italic;
+    text-align: center;
+    color: white;
+    background-color: #e1312c;
+    border: solid white;
+    padding: 1% 0;
+    margin-bottom: 5%;
+    margin-left: 10%;
+}
+
+#choice2 {
+    float: left;
+    width: 20%;
+    font-size: 1em;
+    font-style: italic;
+    text-align: center;
+    color: white;
+    background-color: #e1312c;
+    border: solid white;
+    padding: 1% 0;
+    margin-bottom: 5%;
+    margin-left: 40%;
+}
+
+#button {
+    float: left;
+    width: 10%;
+    margin-top: 20%;
+    margin-left: 4%;
+}
+
+#button img {
+    width: 150%;
+}
+
+.addStats1 {
+     float: left;
+     width: 30%;
+     text-align: center;
+     background-color: #e1312c;
+     border-color: white;
+     border-radius: 20%;
+     border-style: solid;
+     font-size: 1em;
+     color: white;
+     padding: 5% 0;
+     margin-top: 2%;
+     margin-left: 10%;
+     margin-bottom: 5%;
+ }
+
+.addStats2 {
+    float: left;
+    width: 30%;
+    text-align: center;
+    background-color: #e1312c;
+    border: solid white;
+    border-radius: 20%;
+    font-size: 1em;
+    color: white;
+    padding: 5% 0;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+
+#addButton {
+    float: left;
+    margin-top: 2%;
+    margin-left: 24%;
+    width: 50%;
+    text-align: center;
+}
+
+#startButton {
+    width: 30%;
+    margin-top: 5%;
+}
+
+.inputStyle {
+    width: 60%;
+}
+
+#text_box {
+
+    float: left;
+    width: 70%;
+    background-color: #e1312c;
+    border: solid white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1em;
+    text-align: center;
+    color: white;
+    padding: 1% 0;
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-bottom: 5%;
+    overflow-y: scroll;
+}

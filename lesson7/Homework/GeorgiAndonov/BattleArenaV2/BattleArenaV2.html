@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.0.min.js">
+    </script>
+    <title> Battle Arena v2 </title>
+</head>
+<body>
+<div id="header">
+    <img id="img1" src="img/pba_logo.png">
+</div>
+
+<div class="Fighter1">
+<img src="img/Squirtle_.png">
+</div>
+
+<div id="button">
+    <img src="img/fightbutton.png">
+</div>
+
+<div class="Fighter2">
+    <img id="img2" src="img/Charmander.png">
+</div>
+
+<div id="choice1">
+    Choose type:<br>
+    <input type="radio" id="f1-option" class="radioB" name="selector" value="1">
+    <label for="f1-option"> Fire type </label><br>
+    <input type="radio" id="w1-option" class="radioB" name="selector" value="2" checked="checked">
+    <label for="w1-option"> Water type </label><br>
+    <input type="radio" id="g1-option" class="radioB" name="selector" value="3">
+    <label for="g1-option"> Grass Type </label><br>
+    <button id="select1"> Submit </button>
+</div>
+
+<div id="choice2">
+    Choose type:<br>
+    <input type="radio" id="f2-option" name="selector2" value="1" checked="checked">
+    <label for="f2-option"> Fire type </label><br>
+    <input type="radio" id="w2-option" name="selector2" value="2">
+    <label for="w2-option"> Water type </label><br>
+    <input type="radio" id="g2-option" name="selector2" value="3">
+    <label for="g2-option"> Grass Type </label><br>
+    <button id="select2"> Submit </button>
+</div>
+
+<div id="text_box"> Combat Log: </div>
+
+<div class="addStats1">
+    <form>
+        Pokemon name:<br>
+        <input type="text" name="nameFirst" id="name1" class="inputStyle"><br>
+        Health Points:<br>
+        <input type="number" name="HP1" id="HP1" class="inputStyle"><br>
+        Attack name 1:<br>
+        <input type="text" name="attackname1First" id="fAttName1" class="inputStyle"><br>
+        Attack name 2:<br>
+        <input type="text" name="attackname2First" id="fAttName2" class="inputStyle"><br>
+        Attack name 3:<br>
+        <input type="text" name="attackname3First" id="fAttName3" class="inputStyle"><br>
+        Min Attack:<br>
+        <input type="number" name="minAttackFirst" id="minAtt1" class="inputStyle"><br>
+        Max Attack:<br>
+        <input type="number" name="maxAttackFirst" id="maxAtt1" class="inputStyle"><br>
+    </form>
+</div>
+
+<div class="addStats2">
+    <form>
+        Pokemon name:<br>
+        <input type="text" name="nameSecond" id="name2" class="inputStyle"><br>
+        Health Points:<br>
+        <input type="number" name="HP2" id="HP2" class="inputStyle"><br>
+        Attack name 1:<br>
+        <input type="text" name="attackname1Second" id="sAttName1" class="inputStyle"><br>
+        Attack name 2:<br>
+        <input type="text" name="attackname2Second" id="sAttName2" class="inputStyle"><br>
+        Attack name 3:<br>
+        <input type="text" name="attackname3Second" id="sAttName3" class="inputStyle"><br>
+        Min Attack:<br>
+        <input type="number" name="minAttackSecond" id="minAtt2" class="inputStyle"><br>
+        Max Attack:<br>
+        <input type="number" name="maxAttackSecond" id="maxAtt2" class="inputStyle"><br>
+    </form>
+</div>
+
+<div id="addButton">
+    <img id="startButton" src="img/submitbutton.png">
+</div>
+</body>
+</html>
