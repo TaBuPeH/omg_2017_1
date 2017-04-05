@@ -4,6 +4,7 @@ $(document).ready(function () {
         var name = name;
         var health = health;
         var attack = attack;
+        this.ability;
 
         this.getHealth = function () {
             return health;
