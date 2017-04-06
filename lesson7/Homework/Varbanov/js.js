@@ -67,7 +67,7 @@ var thrall = new Champ('Tharll', 35000);
 thrall.addAttack(new Attack('Kick', 500));
 thrall.addAttack(new Attack('Hammer Slash', 800));
 thrall.addAttack(new Attack('Punch', 300));
-thrall.addAttack(new Attack('SuperPower', 3000));
+thrall.addAttack(new Attack('SuperPower', 4000));
 
 var moves = new Array;
 var i = 0,
