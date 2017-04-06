@@ -1,0 +1,59 @@
+{
+  "cards": [
+    {
+      "name": "White dragon",
+      "attack": "150",
+      "health": "200",
+      "ability": "freeze"
+    },
+    {
+      "name": "Red dragon",
+      "attack": "240",
+      "health": "150",
+      "ability": "burn"
+    },
+    {
+      "name": "Guardian dragon",
+      "attack": "100",
+      "health": "480",
+      "ability": "guard"
+    },
+    {
+      "name": "Thief dragon",
+      "attack": "85",
+      "health": "220",
+      "ability": "steel"
+    },
+    {
+      "name": "Gold dragon",
+      "attack": "520",
+      "health": "500",
+      "ability": ""
+    },
+    {
+      "name": "Fairy dragon",
+      "attack": "15",
+      "health": "20",
+      "ability": "kill"
+    },
+    {
+      "name": "Baby dragon",
+      "attack": "8",
+      "health": "10",
+      "ability": ""
+    },
+    {
+      "name": "Armored dragon",
+      "attack": "140",
+      "health": "360",
+      "ability": "return"
+    },
+    {
+      "name": "Spike dragon",
+      "attack": "160",
+      "health": "280",
+      "ability": "twice"
+    }
+  ],
+  "cardNum": 9
+}
