@@ -1,7 +1,7 @@
 <?php
 class Vehicle
 {
-    protected $brand;
+    private $brand;
     protected $oilType;
     protected $fuel;
     protected $weight;
@@ -137,4 +137,3 @@ $mercedes->AddFuel(15);
 echo '<br />' . $mercedes->GetFuel();
 $mercedes->CloseRoof();
 echo '<br />' . $mercedes->IsRoofOpen();
-?>
