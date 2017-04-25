@@ -1,0 +1,98 @@
+body{
+	background-image: url("back.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: repeat;
+    color: white;
+}
+
+button{
+	background-color: rgba(180, 180, 180, 0.5);
+	padding: 1.2% 3%;
+	border: solid;
+	border-width: 2px;
+	border-color: white;
+	position: absolute;
+	width: 20%;
+	transition: background-color .5s;
+	position: fixed;
+	transition: color .5s, border-color .5s;
+	font-family: Lucida Bright, Copperplate, Charcoal, serif;
+	font-size: 2vw;
+}
+
+#buttonLogIn
+{
+	margin: 25% 30%;
+}
+
+#buttonSignIn
+{
+	margin: 25% 50%;
+}
+
+button:hover{
+	background-color: rgba(0, 0, 0, 0);
+	color: white;
+	border-color: #ddcc12;
+}
+
+button:active{
+	background-color: white;
+	color: white;
+}
+
+@keyframes anim{
+	from {transform: scale(0);}
+	to {transform: scale(1);}
+}
+
+#window, #windowSign{
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+	position: fixed;
+	background-color: transparent;
+	
+}
+
+#form{
+	color: white;
+	width: 50%;
+	margin: 25%;
+	top: -30%;
+	background-color: rgba(200, 200, 200, 0.3);
+	padding: 2%;
+	border: /*#43302E*/ #ddcc12 3px solid; /*Old Burgundy*/
+	animation-name: anim;
+	animation-iteration-count: 1;
+	animation-duration: .5s;
+	z-index: 1;
+	border-radius: 10px;
+	text-align: center;
+	position: absolute;
+}
+
+#header{
+
+}
+
+.center50{
+	width: 30%;
+	margin: auto;
+	position: relative;
+	text-align: center;
+	align-content: center;
+}
+
+.footer{
+	position: fixed;
+	bottom: 0;
+	color: white;
+}
+
+a:link{
+    color: wheat;
+}
