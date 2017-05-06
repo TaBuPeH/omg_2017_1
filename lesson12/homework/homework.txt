@@ -1,0 +1,22 @@
+
+install laravel / symfony 
+
+Configure the framework
+
+// come back with problems
+
+make 1 model with Eloquent / Doctrine
+
+create the data table in mysql (manual / with migration)
+
+create 1 controller, fetch / save data from the database
+
+
+//// 
+
+1. project planning - database structure
+2. Design - slicing 
+3. Layouts 
+4. Coding - special cases 
+5. Advanced Techniques - AJAX, CSFR Tokens ... JQUERY
+6. Final Product
