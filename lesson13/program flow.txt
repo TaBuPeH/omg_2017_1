@@ -1,0 +1,32 @@
+1. we write something in the web address
+2. The request is sent to the server at some ip along with the domain we wanted
+3. The domain is looked up into the Virtual Hosts - we find which folder it is in 
+4. We find and execute the index file of the domain
+	
+Database and web servers are 2 different servers
+	
+	    |
+	Webserver   	    ->      	 Database server
+		    Select --->  	[table][table]
+ 		    result <---	
+
+	insert/update/delete --->
+			
+5.  PHP script
+	mysql_connect(); 
+	mysql_query();
+
+6. DB class 
+	( ORM ) new object executes the connect function
+	Each Model represents a table
+	Save - getById ....
+	mysql_query();
+
+7. Laravel 
+	(ORM ) - it comes with the framework
+	- Each model represents a single database table
+	- it connects with automagic :)
+
+	- 1 Controller - 1 Model
+	- ProductsConroller - Product model - Fetch products / add new products ... 
+	- Using PHP code to generate SQL query - get the result in PHP format

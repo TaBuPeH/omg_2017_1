@@ -1,0 +1,14 @@
+﻿Форумна система
+Съвети за зобене :)
+	
+1. PHP - Admin panel 
+	за въвеждане на категории - CRUD 
+	за въвеждане на мнения CRUD
+	User Levels - Admin, Normal User
+	Admin can select - advice for the day
+	Fitness Room - CRUD	
+ 	
+2. Frontend - Standard theme - no excessive frontend
+	
+	- Google maps with fitness room in plovdiv 
+	- Contact form - send on email

@@ -1,0 +1,27 @@
+1. Database Planning
+
+	Event
+		- name
+		- description
+		- image
+		- hours
+		- lat
+		- long
+	images 
+		- event_id
+
+2. PHP - Admin 
+		- List Events
+		- Add event
+		- Edit Event
+		- Delete Event
+			(CRUD)
+3. PHP - frontend - communication
+	- Endpoint for data reading
+		- JSON formatted string of events json_encode
+
+3. Frontend
+	- Read json string on load 
+	- Javascript API Google Maps
+		- Marker Postioning	
+		- Info Windows
